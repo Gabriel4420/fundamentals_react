@@ -3,12 +3,12 @@ import IF from './If';
 export default props =>{
   return (
           <div>
-            <h2>O numero é {props.number}</h2>
+            <h2 style={{color:props.color}} >O numero é {props.number}</h2>
             <IF test={props.number % 2 === 0}>   
-            <span>Par</span>
+            <span style={{color:props.color}}>Par</span>
             </IF> 
             <IF test={props.number % 2 !== 0}> 
-            <span>Impar</span>
+            <span style={{color:props.color}}>Impar</span>
             </IF>
           </div>
   )

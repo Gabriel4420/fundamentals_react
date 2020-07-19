@@ -2,7 +2,7 @@ import React from 'react';
 
 export default props => 
     <>
-      <h3>{props.title}</h3>
+      <h3 style={{color:props.color}}>{props.title}</h3>
       <p>{props.subtitle}</p>
-      <h4>{Array(10).fill(0)}</h4>
+      
     </>

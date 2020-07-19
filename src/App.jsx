@@ -12,21 +12,21 @@ export default (props) =>
 
 <div className="App">
   
-  <Card title="#05 Condicional v2">
-      <Conditional2 number={10}/>
+  <Card title="#05 Condicional v2" color="#FA6900">
+      <Conditional2 number={10} color="#FA6900" />
   </Card>
-  <Card title="#04 Condicional v1">
-      <Conditional number={11}/>
+  <Card title="#04 Condicional v1" color="#b01212">
+      <Conditional number={11} color="#b01212"/>
   </Card>
-  <Card title="#04 Loop">
-      <Loop/>
+  <Card title="#04 Loop" color="#155c1c">
+      <Loop color="#155c1c"/>
   </Card>
-  <Card title="#03 Componentes com parametros">
-    <WP  title="Titulo" subtitle="Subtitulo"/>
-    <WP  title="Ooopa" subtitle="Epaaaaaaa"/>
+  <Card title="#03 Componentes com parametros" color="#e0b509">
+    <WP  title="Titulo" subtitle="Subtitulo" color="#e0b509"/>
+    
   </Card>
-  <Card title="#02 Componentes com filhos">
-      <WC>
+  <Card title="#02 Componentes com filhos" color="#ff00e6">
+      <WC color="#ff00e6">
         <ul>
           <li>Ana</li>
           <li>Bia</li>
@@ -35,7 +35,7 @@ export default (props) =>
         </ul>
       </WC>
   </Card>
-  <Card title="#01 Primeiro Componente">
+  <Card title="#01 Primeiro Componente" color="#3c00ff">
       <First/>
   </Card>
   </div>
