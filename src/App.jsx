@@ -1,13 +1,13 @@
 import './App.css'
 import React from 'react';
 import './index.css';
-import First from './components/First';
-import WP from './components/WithParameters'; 
-import WC from './components/WithChilds'; 
+import First from './components/Basics/First';
+import WP from './components/Basics/WithParameters'; 
+import WC from './components/Basics/WithChilds'; 
 import Card from './components/Layout/Card';
-import Loop from './components/Loop';
-import Conditional from './components/Conditional';
-import Conditional2 from './components/ConditionalWithIF';
+import Loop from './components/Basics/Loop';
+import Conditional from './components/Basics/Conditional';
+import Conditional2 from './components/Basics/ConditionalWithIF';
 export default (props) =>
 
 <div className="App">
